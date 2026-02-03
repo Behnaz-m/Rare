@@ -1,0 +1,5 @@
+Condition,AUC,Brier,Inflation
+Leak-Free + Grouped CV,0.556 +/- 0.072,0.287 +/- 0.052,baseline
+Leak-Free + Random CV,0.856 +/- 0.043,0.151 +/- 0.024,+54%
+Normalization Leak + Grouped CV,0.556 +/- 0.072,0.287 +/- 0.052,+0%
+Explicit Leak + Grouped CV,0.773 +/- 0.043,0.161 +/- 0.028,+39%

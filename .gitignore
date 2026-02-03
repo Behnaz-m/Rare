@@ -1,0 +1,37 @@
+# Exclude from version control
+CLAUDE.md
+manuscript/
+.autopilot.json
+.cursor/
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SLURM logs (keep scripts, exclude logs)
+slurm_logs/*.out
+slurm_logs/*.err
+
+# Large result files (keep structure)
+# results/simulation_results_*.csv
